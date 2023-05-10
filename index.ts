@@ -46,8 +46,9 @@ async function run() {
         const valueD: HTMLHRElement | null = row.querySelector("hr");
         // const valueD = row.querySelector("hr")?.nextSibling.textContent.trim();
 
-        if (typeof nameH?.innerText.trim() === "undefined") return;
-        rowData[nameH.innerText.trim()] = valueD?.innerText.trim();
+        if (typeof nameH?.textContent?.trim() === "undefined") return;
+        rowData[nameH.innerText.trim()] =
+          valueD?.nextSibling?.textContent?.trim();
       });
       return JSON.stringify(rowData);
     }, counter);
