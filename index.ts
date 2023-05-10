@@ -22,12 +22,12 @@ async function run() {
       rowData["id"] = counter;
       rows.forEach((row) => {
         const nameH: HTMLTableCellElement | null = row.querySelector("th");
-        const valueD: HTMLTableCellElement | null = row.querySelector("td");
+        const value: HTMLTableCellElement | null = row.querySelector("td");
 
+        if (typeof nameH?.innerText.trim() === "undefined") return;
         const name: string | undefined = nameH?.innerText.trim();
-        const value: string | undefined = valueD?.innerText.trim();
-        if (name == "Skill") return;
-        name ? (rowData[name] = value) : null;
+        if (name === "Skill") return;
+        rowData[name] = value?.innerText.trim();
       });
 
       return JSON.stringify(rowData);
@@ -46,10 +46,8 @@ async function run() {
         const valueD: HTMLHRElement | null = row.querySelector("hr");
         // const valueD = row.querySelector("hr")?.nextSibling.textContent.trim();
 
-        const name: string | undefined = nameH?.textContent?.trim();
-        const value: string | undefined =
-          valueD?.nextSibling?.textContent?.trim();
-        name ? (rowData[name] = value) : null;
+        if (typeof nameH?.innerText.trim() === "undefined") return;
+        rowData[nameH.innerText.trim()] = valueD?.innerText.trim();
       });
       return JSON.stringify(rowData);
     }, counter);
