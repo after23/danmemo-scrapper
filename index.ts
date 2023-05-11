@@ -32,10 +32,12 @@ async function run() {
         rowData[name] = value?.innerText.trim();
       });
 
-      return JSON.stringify(rowData);
+      return rowData;
     }, counter);
 
-    console.log(characterData);
+    // console.log(characterData);
+    const characterDataStr: string = characterDataParser(characterData);
+    writeToFile(characterFileName, characterDataStr);
 
     const skillData: string = await page.evaluate((counter) => {
       const rows: NodeListOf<Element> = document.querySelectorAll(
@@ -52,10 +54,13 @@ async function run() {
         rowData[nameH.innerText.trim()] =
           valueD?.nextSibling?.textContent?.trim();
       });
-      return JSON.stringify(rowData);
+      return rowData;
     }, counter);
 
-    console.log(skillData);
+    // console.log(skillData);
+
+    const skillDataStr: string = skillDataParser(skillData);
+    writeToFile(skillFileName, skillDataStr);
 
     const src: string | null | undefined = await page.evaluate(() => {
       const img: Element | null = document.querySelector(
