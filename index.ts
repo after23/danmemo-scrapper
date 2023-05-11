@@ -1,11 +1,68 @@
 import * as puppeteer from "puppeteer";
 import fs from "fs";
-import { characterFileName, skillFileName } from "./const";
+import { characterFileName, skillFileName, assistSkillFileName } from "./const";
 import { writeToFile, characterDataParser, skillDataParser } from "./writer";
+
+const dataParser = (
+  id: number,
+  dataType: string,
+  characterType?: string
+): any => {
+  const rowData: any = { id: id };
+  if (dataType == "character") {
+    const rows: NodeListOf<Element> = document.querySelectorAll(
+      "#fixed-nav-contents > div:nth-child(1) > div.entry-body > div:nth-child(8) > table tbody tr"
+    );
+
+    rows.forEach((row) => {
+      const nameH: HTMLTableCellElement | null = row.querySelector("th");
+      const value: HTMLTableCellElement | null = row.querySelector("td");
+
+      if (typeof nameH?.innerText.trim() === "undefined") return;
+      const name: string | undefined = nameH?.innerText.trim();
+      if (name === "Skill") return;
+      rowData[name] = value?.innerText.trim();
+    });
+
+    return rowData;
+  }
+
+  if (characterType === "Adventurer") {
+    const skillEN: Element | null | undefined =
+      document.querySelector("#skill_en")?.nextElementSibling;
+    if (!skillEN) return;
+    const rows: NodeListOf<Element> = skillEN.querySelectorAll(
+      "table tbody tr:nth-of-type(-n+6) td"
+    );
+    rows.forEach((row) => {
+      const name: HTMLElement | null = row.querySelector("strong");
+      const value: HTMLHRElement | null = row.querySelector("hr");
+
+      if (typeof name?.textContent?.trim() === "undefined") return;
+      rowData[name.innerText.trim()] = value?.nextSibling?.textContent?.trim();
+    });
+    return rowData;
+  }
+
+  const skillEN: Element | null | undefined =
+    document.querySelector("#skill_en")?.nextElementSibling;
+  if (!skillEN) return;
+  const rows: NodeListOf<Element> =
+    skillEN.querySelectorAll("table tbody tr td");
+  rows.forEach((row) => {
+    const name: HTMLElement | null = row.querySelector("strong");
+    const value: HTMLHRElement | null = row.querySelector("hr");
+
+    if (typeof name?.textContent?.trim() === "undefined") return;
+    rowData[name.innerText.trim()] = value?.nextSibling?.textContent?.trim();
+  });
+  console.log("here");
+  return rowData;
+};
 
 async function run() {
   let browser: puppeteer.Browser | null = null;
-  let counter: number = 150;
+  let counter: number = 749;
   try {
     browser = await puppeteer.launch({ headless: "new" });
     const page: puppeteer.Page = await browser.newPage();
@@ -15,26 +72,11 @@ async function run() {
       throw new Error("yeow");
     }
 
-    const characterData: string = await page.evaluate((counter) => {
-      const rows: NodeListOf<Element> = document.querySelectorAll(
-        "#fixed-nav-contents > div:nth-child(1) > div.entry-body > div:nth-child(8) > table tbody tr"
-      );
-
-      const rowData: any = {};
-      rowData["id"] = counter;
-      rows.forEach((row) => {
-        const nameH: HTMLTableCellElement | null = row.querySelector("th");
-        const value: HTMLTableCellElement | null = row.querySelector("td");
-
-        if (typeof nameH?.innerText.trim() === "undefined") return;
-        const name: string | undefined = nameH?.innerText.trim();
-        if (name === "Skill") return;
-        rowData[name] = value?.innerText.trim();
-      });
-
-      return rowData;
-    }, counter);
-
+    const characterData: any = await page.evaluate(
+      dataParser,
+      counter,
+      "character"
+    );
     // console.log(characterData);
     const characterDataStr: string = characterDataParser(characterData);
     writeToFile(characterFileName, characterDataStr, counter);
@@ -48,31 +90,16 @@ async function run() {
     // }
     // console.log(text);
 
-    const skillData: string = await page.evaluate((counter) => {
-      const skillEN: Element | null | undefined =
-        document.querySelector("#skill_en")?.nextElementSibling;
-      if (!skillEN) return;
-      const rows: NodeListOf<Element> = skillEN.querySelectorAll(
-        "table tbody tr:nth-of-type(-n+6) td"
-      );
-      const rowData: any = { id: counter };
-      rows.forEach((row) => {
-        // const nameH = row.querySelector("strong")?.textContent.trim();
-        const nameH: HTMLElement | null = row.querySelector("strong");
-        const valueD: HTMLHRElement | null = row.querySelector("hr");
-        // const valueD = row.querySelector("hr")?.nextSibling.textContent.trim();
-
-        if (typeof nameH?.textContent?.trim() === "undefined") return;
-        rowData[nameH.innerText.trim()] =
-          valueD?.nextSibling?.textContent?.trim();
-      });
-      return rowData;
-    }, counter);
-
-    // console.log(skillData);
-    // console.log(skillData);
+    const skillData: any = await page.evaluate(
+      dataParser,
+      counter,
+      "Skill",
+      characterData["Category"]
+    );
     const skillDataStr: string = skillDataParser(skillData);
-    writeToFile(skillFileName, skillDataStr, counter);
+    characterData["Category"] === "Adventurer"
+      ? writeToFile(skillFileName, skillDataStr, counter)
+      : writeToFile(assistSkillFileName, skillDataStr, counter);
 
     const src: string | null | undefined = await page.evaluate(() => {
       const img: Element | null = document.querySelector(

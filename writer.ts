@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { characterFileName, skillFileName } from "./const";
+import { characterFileName, skillFileName, assistSkillFileName } from "./const";
 
 function writeToFile(fileName: string, data: string, id: number): void {
   if (!fs.existsSync(fileName)) {
@@ -8,6 +8,10 @@ function writeToFile(fileName: string, data: string, id: number): void {
 
     if (fileName === skillFileName) {
       header = "id;sa;saText;s1;s1Text;s2;s2Text;s3;s3Text";
+    }
+
+    if (fileName === assistSkillFileName) {
+      header = "id;s1;s1Text;s2;s2Text;s3;s3Text";
     }
     fs.writeFileSync(fileName, header, "utf-8");
   }
