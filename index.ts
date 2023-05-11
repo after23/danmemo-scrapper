@@ -3,16 +3,24 @@ import fs from "fs";
 import { characterFileName, skillFileName, assistSkillFileName } from "./const";
 import { writeToFile, characterDataParser, skillDataParser } from "./writer";
 
+const selector: any = {
+  character:
+    "#fixed-nav-contents > div:nth-child(1) > div.entry-body > div:nth-child(8) > table tbody tr",
+  skill: "table tbody tr:nth-of-type(-n+6) td",
+  assistSkill: "table tbody tr td",
+};
+
 const dataParser = (
   id: number,
   dataType: string,
+  selector: any,
   characterType?: string
 ): any => {
   const rowData: any = { id: id };
+  const characterSelector: string = selector.character;
   if (dataType == "character") {
-    const rows: NodeListOf<Element> = document.querySelectorAll(
-      "#fixed-nav-contents > div:nth-child(1) > div.entry-body > div:nth-child(8) > table tbody tr"
-    );
+    const rows: NodeListOf<Element> =
+      document.querySelectorAll(characterSelector);
 
     rows.forEach((row) => {
       const nameH: HTMLTableCellElement | null = row.querySelector("th");
@@ -26,29 +34,13 @@ const dataParser = (
 
     return rowData;
   }
-
-  if (characterType === "Adventurer") {
-    const skillEN: Element | null | undefined =
-      document.querySelector("#skill_en")?.nextElementSibling;
-    if (!skillEN) return;
-    const rows: NodeListOf<Element> = skillEN.querySelectorAll(
-      "table tbody tr:nth-of-type(-n+6) td"
-    );
-    rows.forEach((row) => {
-      const name: HTMLElement | null = row.querySelector("strong");
-      const value: HTMLHRElement | null = row.querySelector("hr");
-
-      if (typeof name?.textContent?.trim() === "undefined") return;
-      rowData[name.innerText.trim()] = value?.nextSibling?.textContent?.trim();
-    });
-    return rowData;
-  }
+  let skillSelector: string = selector.assistSkill;
+  if (characterType === "Adventurer") skillSelector = selector.skill;
 
   const skillEN: Element | null | undefined =
     document.querySelector("#skill_en")?.nextElementSibling;
   if (!skillEN) return;
-  const rows: NodeListOf<Element> =
-    skillEN.querySelectorAll("table tbody tr td");
+  const rows: NodeListOf<Element> = skillEN.querySelectorAll(skillSelector);
   rows.forEach((row) => {
     const name: HTMLElement | null = row.querySelector("strong");
     const value: HTMLHRElement | null = row.querySelector("hr");
@@ -62,7 +54,7 @@ const dataParser = (
 
 async function run() {
   let browser: puppeteer.Browser | null = null;
-  let counter: number = 749;
+  let counter: number = 750;
   try {
     browser = await puppeteer.launch({ headless: "new" });
     const page: puppeteer.Page = await browser.newPage();
@@ -75,7 +67,8 @@ async function run() {
     const characterData: any = await page.evaluate(
       dataParser,
       counter,
-      "character"
+      "character",
+      selector
     );
     // console.log(characterData);
     const characterDataStr: string = characterDataParser(characterData);
@@ -94,6 +87,7 @@ async function run() {
       dataParser,
       counter,
       "Skill",
+      selector,
       characterData["Category"]
     );
     const skillDataStr: string = skillDataParser(skillData);
