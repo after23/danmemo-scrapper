@@ -5,7 +5,7 @@ import { writeToFile, characterDataParser, skillDataParser } from "./writer";
 
 async function run() {
   let browser: puppeteer.Browser | null = null;
-  let counter: number = 696;
+  let counter: number = 150;
   try {
     browser = await puppeteer.launch({ headless: "new" });
     const page: puppeteer.Page = await browser.newPage();
@@ -37,11 +37,23 @@ async function run() {
 
     // console.log(characterData);
     const characterDataStr: string = characterDataParser(characterData);
-    writeToFile(characterFileName, characterDataStr);
+    writeToFile(characterFileName, characterDataStr, counter);
+
+    // const selector = "#skill_en";
+    // await page.waitForSelector(selector);
+    // const el = await page.$(selector);
+    // let text;
+    // if (el) {
+    //   text = await el.evaluate((e) => e.nextSibling?.textContent);
+    // }
+    // console.log(text);
 
     const skillData: string = await page.evaluate((counter) => {
-      const rows: NodeListOf<Element> = document.querySelectorAll(
-        "#fixed-nav-contents > div:nth-child(1) > div.entry-body > div:nth-child(40) > table tbody tr:nth-of-type(-n+6) td"
+      const skillEN: Element | null | undefined =
+        document.querySelector("#skill_en")?.nextElementSibling;
+      if (!skillEN) return;
+      const rows: NodeListOf<Element> = skillEN.querySelectorAll(
+        "table tbody tr:nth-of-type(-n+6) td"
       );
       const rowData: any = { id: counter };
       rows.forEach((row) => {
@@ -58,9 +70,9 @@ async function run() {
     }, counter);
 
     // console.log(skillData);
-
+    // console.log(skillData);
     const skillDataStr: string = skillDataParser(skillData);
-    writeToFile(skillFileName, skillDataStr);
+    writeToFile(skillFileName, skillDataStr, counter);
 
     const src: string | null | undefined = await page.evaluate(() => {
       const img: Element | null = document.querySelector(
@@ -70,17 +82,16 @@ async function run() {
       return img?.getAttribute("src");
     });
     if (typeof src !== "string") return;
-    let viewSource: puppeteer.HTTPResponse | null = await page.goto(src);
+    const viewSource: puppeteer.HTTPResponse | null = await page.goto(src);
 
-    if (viewSource) {
-      fs.writeFile(
-        `./img/${counter}.png`,
-        await viewSource.buffer(),
-        function (err: NodeJS.ErrnoException | null) {
-          err ? console.log(err) : console.log("yeay");
-        }
-      );
-    }
+    if (!viewSource) return;
+    fs.writeFile(
+      `./img/${counter}.png`,
+      await viewSource.buffer(),
+      function (err: NodeJS.ErrnoException | null) {
+        err ? console.log(err) : console.log("yeay");
+      }
+    );
   } catch (err) {
     console.error(err);
   } finally {

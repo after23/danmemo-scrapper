@@ -1,2 +1,4 @@
-id,name,character,category,rarity,type,element,ascension,method obtained
-696,【Harnel of Flame】Alise Lovell,Alise Lovell,Adventurer,★4,Magical Attack,Light,Possible,Time-Limited
+id;name;character;category;rarity;type;element;ascension;method obtained
+696;Harnel of Flame Alise Lovell;Alise Lovell;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+1;Adventurer Bell Cranel;Bell Cranel;Adventurer;1;Physical Attack;Fire;Impossible;Regular
+150;Gale in Yukata Ryu Lion;Ryu Lion;Adventurer;3;Magical Attack;Earth;Impossible;Event
