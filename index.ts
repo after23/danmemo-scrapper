@@ -1,5 +1,7 @@
 import * as puppeteer from "puppeteer";
 import fs from "fs";
+import { characterFileName, skillFileName } from "./const";
+import { writeToFile, characterDataParser, skillDataParser } from "./writer";
 
 async function run() {
   let browser: puppeteer.Browser | null = null;

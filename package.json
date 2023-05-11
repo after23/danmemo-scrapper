@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^20.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2"
   }
 }

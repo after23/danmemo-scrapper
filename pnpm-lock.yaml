@@ -5,6 +5,11 @@ dependencies:
     specifier: ^20.1.2
     version: 20.1.2
 
+devDependencies:
+  '@types/node':
+    specifier: ^20.1.2
+    version: 20.1.2
+
 packages:
 
   /@babel/code-frame@7.21.4:
@@ -58,8 +63,6 @@ packages:
 
   /@types/node@20.1.2:
     resolution: {integrity: sha512-CTO/wa8x+rZU626cL2BlbCDzydgnFNgc19h4YvizpTO88MFQxab8wqisxaofQJ/9bLGugRdWIuX/TbIs6VVF6g==}
-    dev: false
-    optional: true
 
   /@types/yauzl@2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
