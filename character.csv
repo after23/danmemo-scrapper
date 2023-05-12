@@ -1,2 +1,206 @@
 id;name;character;category;rarity;type;element;ascension;method obtained
-750;Songbird of Salvation Ray;Ray;Assist;4;;;;Regular
+1;Adventurer Bell Cranel;Bell Cranel;Adventurer;1;Physical Attack;Fire;Impossible;Regular
+2;Liaris Freese Bell Cranel;Bell Cranel;Adventurer;2;Physical Attack;Fire;Impossible;Regular
+3;Ox Slayer Bell Cranel;Bell Cranel;Adventurer;3;Physical Attack;Fire;Impossible;Regular
+4;Argonaut Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Fire;Possible;Regular
+5;Breezy Freese Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Fire;Impossible;Time-Limited
+6;The White Rabbit Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;FireLight;Impossible;Time-Limited
+7;A Fresh Start Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;;Impossible;Time-Limited
+8;Dungeon Addict Bell Cranel;Bell Cranel;Adventurer;3;Physical Attack;Fire;Impossible;Regular
+9;Honor Succession Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Fire;Possible;Regular
+10;ODM Fight Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+11;Aspiring Elegance Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+12;Moonlight Oath Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Light;Possible;Regular
+13;The Edgiest Teen Bell Cranel;Bell Cranel;Adventurer;4;Balanced;Dark;Impossible;Time-Limited
+14;Outlaw Rabbit Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+15;The Enlightened Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+16;Regalia Freese Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Wind;Possible;Regular
+17;Battle Princess Ais Wallenstein;Ais Wallenstein;Adventurer;2;Physical Attack;Wind;Impossible;Regular
+18;Sword Princess Ais Wallenstein;Ais Wallenstein;Adventurer;3;Physical Attack;Wind;Impossible;Regular
+19;Heroic Liaris Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Regular
+20;Gorgeous Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Balanced;;Impossible;Regular
+21;Splash Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Balanced;Light;Impossible;Time-Limited
+22;Santa Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Water;Impossible;Time-Limited
+23;Bathroom Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Balanced;Wind;Impossible;Regular
+24;Sparkle Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;;Possible;Regular
+25;Cold Princess Ais Wallenstein;Ais Wallenstein;Adventurer;3;Physical Attack;;Impossible;Regular
+26;Honor Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;;Possible;Regular
+27;Summer Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+28;Bunny Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;;Impossible;Regular
+29;Glitter Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;;Impossible;Regular
+30;Starving Mind Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+31;Regiment Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+32;Crimson Tempest Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Fire;Possible;Regular
+33;Sweet Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+34;Devil Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+35;Angelic Leader Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Light;Impossible;Time-Limited
+36;Beauty Ais Wallenstein;Ais Wallenstein;Adventurer;4;Balanced;Water;Possible;Regular
+37;Jade Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Regular
+38;Dancing Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Fire;Possible;Regular
+39;Supporter Liliruca Arde;Liliruca Arde;Adventurer;2;Healing;;Impossible;Regular
+40;Artel Assist Liliruca Arde;Liliruca Arde;Adventurer;3;Healing;;Impossible;Regular
+41;Disguised Pallum Liliruca Arde;Liliruca Arde;Adventurer;4;Healing;FireLightDark;Possible;Regular
+42;Temptations Liliruca Arde;Liliruca Arde;Adventurer;4;Healing;Light;Impossible;Time-Limited
+43;Sweet Devil Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Dark;Impossible;Time-Limited
+44;Artel Tart Liliruca Arde;Liliruca Arde;Adventurer;3;Magical Attack;Water;Impossible;Event
+45;Pallum Passion Liliruca Arde;Liliruca Arde;Adventurer;4;Healing;Fire;Impossible;Time-Limited
+46;Enjoy Onsen Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Earth;Impossible;Regular
+47;Honestly Wicked Liliruca Arde;Liliruca Arde;Adventurer;3;Healing;Earth;Impossible;Regular
+48;Lovely Travel Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Light;Impossible;Regular
+49;Summer Fun Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+50;Winter Cream Liliruca Arde;Liliruca Arde;Adventurer;4;Balanced;Fire;Impossible;Time-Limited
+51;Echoing Arrow Liliruca Arde;Liliruca Arde;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+52;Metal Robot Liliruca Arde;Liliruca Arde;Adventurer;4;Balanced;Thunder;Impossible;Time-Limited
+53;Longing Bride Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Water;Possible;Regular
+54;Aschenputtel Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+55;Samurai Girl Yamato Mikoto;Yamato Mikoto;Adventurer;2;Balanced;Dark;Impossible;Regular
+56;Zetsu Ei Yamato Mikoto;Yamato Mikoto;Adventurer;3;Balanced;Dark;Impossible;Regular
+57;Samurai Kunoichi Yamato Mikoto;Yamato Mikoto;Adventurer;4;Balanced;;Possible;Regular
+58;Yukata Beauty Yamato Mikoto;Yamato Mikoto;Adventurer;4;Balanced;Wind;Impossible;Time-Limited
+59;The Traditional Yamato Mikoto;Yamato Mikoto;Adventurer;4;Balanced;Light;Impossible;Time-Limited
+60;Snow White Yamato Mikoto;Yamato Mikoto;Adventurer;3;Balanced;Dark;Impossible;Event
+61;Love Lesson Yamato Mikoto;Yamato Mikoto;Adventurer;4;Magical Attack;Earth;Possible;Event
+62;Kunoichi Yamato Mikoto;Yamato Mikoto;Adventurer;4;Magical Attack;Water;Possible;Regular
+63;Power of Change Yamato Mikoto;Yamato Mikoto;Adventurer;4;Physical Attack;Dark;Possible;Regular
+64;Captain Finn Deimne;Finn Deimne;Adventurer;2;Balanced;;Impossible;Regular
+65;Braver Finn Deimne;Finn Deimne;Adventurer;3;Balanced;;Impossible;Regular
+66;Masked Braver Finn Deimne;Finn Deimne;Adventurer;4;Balanced;;Possible;Regular
+67;Classy Gentleman Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;;Impossible;Regular
+68;Brave Swordsman Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;;Impossible;Regular
+69;Oriental Attire Finn Deimne;Finn Deimne;Adventurer;4;Balanced;Light;Possible;Event
+70;Great Mage Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;2;Healing;Water;Impossible;Regular
+71;Nine Hell Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;3;Healing;Water;Impossible;Regular
+72;Royal Elf Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Healing;FireWater;Possible;Regular
+73;Holy White Royal Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Balanced;Light;Impossible;Regular
+74;Crimson Dazzle Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Fire;Impossible;Time-Limited
+75;Dressed Royal Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Water;Possible;Regular
+76;Regina Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Water;Possible;Regular
+77;King Ottarl;Ottarl;Adventurer;4;Physical Attack;;Impossible;Regular
+78;Superior Reign Ottarl;Ottarl;Adventurer;4;Physical Attack;;Impossible;Regular
+79;Mighty King Ottarl;Ottarl;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+80;Alchemist Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;2;Balanced;Fire;Impossible;Regular
+81;Combat Commander Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;3;Balanced;Fire;Impossible;Regular
+82;Sailor Princess Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Balanced;Dark;Impossible;Regular
+83;Onsen Princess Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Physical Attack;Water;Impossible;Regular
+84;Almighty Fighter Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Balanced;;Impossible;Regular
+85;Thunderous Perseus Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Balanced;Thunder;Possible;Regular
+86;Berserker Tione Hiryute;Tione Hiryute;Adventurer;3;Physical Attack;;Impossible;Regular
+87;Backdraft Tione Hiryute;Tione Hiryute;Adventurer;3;Balanced;;Impossible;Regular
+88;Pine Heart Tione Hiryute;Tione Hiryute;Adventurer;2;Physical Attack;;Impossible;Regular
+89;Suntan Girl Tione Hiryute;Tione Hiryute;Adventurer;4;Physical Attack;;Impossible;Time-Limited
+90;Twinkle Stream Tione Hiryute;Tione Hiryute;Adventurer;4;Balanced;;Impossible;Regular
+91;Love Recipe Tione Hiryute;Tione Hiryute;Adventurer;4;Balanced;Fire;Impossible;Time-Limited
+92;Crimson Dahlia Tione Hiryute;Tione Hiryute;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+93;Blushing Peony Tione Hiryute;Tione Hiryute;Adventurer;4;Magical Attack;Light;Possible;Regular
+94;Passionately Postal Tione Hiryute;Tione Hiryute;Adventurer;4;Physical Attack;Water;Possible;Regular
+95;School Professor Tione Hiryute;Tione Hiryute;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+96;Full Throttle Tiona Hiryute;Tiona Hiryute;Adventurer;2;Physical Attack;;Impossible;Regular
+97;Berserker Tiona Hiryute;Tiona Hiryute;Adventurer;3;Physical Attack;;Impossible;Regular
+98;Summer Swim Tiona Hiryute;Tiona Hiryute;Adventurer;4;Physical Attack;;Impossible;Time-Limited
+99;Dancing Blessing Tiona Hiryute;Tiona Hiryute;Adventurer;4;Balanced;;Impossible;Regular
+100;Sweet Heart Tiona Hiryute;Tiona Hiryute;Adventurer;4;Physical Attack;;Impossible;Time-Limited
+101;Amber Sunflower Tiona Hiryute;Tiona Hiryute;Adventurer;4;Balanced;Thunder;Impossible;Regular
+102;Blustering Beauty Tiona Hiryute;Tiona Hiryute;Adventurer;4;Balanced;Thunder;Possible;Regular
+103;Blacksmith Welf Crozzo;Welf Crozzo;Adventurer;2;Defensive;Fire;Impossible;Regular
+104;Ignis Welf Crozzo;Welf Crozzo;Adventurer;3;Defensive;Fire;Impossible;Regular
+105;Howling Blade Welf Crozzo;Welf Crozzo;Adventurer;4;Defensive;Water;Possible;Regular
+106;Smithy Expert Welf Crozzo;Welf Crozzo;Adventurer;4;Balanced;Fire;Possible;Regular
+107;Werewolf Bete Loga;Bete Loga;Adventurer;2;Physical Attack;;Impossible;Regular
+108;Ulfheoinn Bete Loga;Bete Loga;Adventurer;3;Physical Attack;;Impossible;Regular
+109;Silver Moonshadow Bete Loga;Bete Loga;Adventurer;4;Physical Attack;Fire;Possible;Regular
+110;Moonlit Wolf Bete Loga;Bete Loga;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+111;Elgarm Gareth Landrock;Gareth Landrock;Adventurer;2;Defensive;Earth;Impossible;Regular
+112;Torrential Gareth Landrock;Gareth Landrock;Adventurer;3;Defensive;Earth;Impossible;Regular
+113;Sunrise Axe Gareth Landrock;Gareth Landrock;Adventurer;4;Defensive;;Impossible;Time-Limited
+114;Thousand Blades Hitachi Chigusa;Hitachi Chigusa;Adventurer;2;Healing;;Impossible;Regular
+115;Evanescent Hitachi Chigusa;Hitachi Chigusa;Adventurer;3;Healing;;Impossible;Event
+116;Sparkling Crystal Hitachi Chigusa;Hitachi Chigusa;Adventurer;4;Healing;;Impossible;Time-Limited
+117;Secret Onsen Hitachi Chigusa;Hitachi Chigusa;Adventurer;4;Balanced;Earth;Impossible;Regular
+118;Fushi kaden Hitachi Chigusa;Hitachi Chigusa;Adventurer;4;Balanced;Thunder;Impossible;Regular
+119;Frosty Blooms Hitachi Chigusa;Hitachi Chigusa;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+120;War God s Child Kashima Ouka;Kashima Ouka;Adventurer;2;Defensive;;Impossible;Regular
+121;Solid Resolutions Kashima Ouka;Kashima Ouka;Adventurer;3;Defensive;;Impossible;Regular
+122;Will of Iron Kashima Ouka;Kashima Ouka;Adventurer;4;Defensive;;Impossible;Regular
+123;High Novice Raul Nord;Raul Nord;Adventurer;3;Balanced;;Impossible;Regular
+124;Night Buster Raul Nord;Raul Nord;Adventurer;4;Balanced;Thunder;Possible;Time-Limited
+125;Thousand Elf Lefiya Viridis;Lefiya Viridis;Adventurer;3;Magical Attack;FireLight;Impossible;Regular
+126;Incantation Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;FireWaterLight;Possible;Regular
+127;Bashful Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Fire;Impossible;Regular
+128;Lots of Love Lefiya Viridis;Lefiya Viridis;Adventurer;3;Magical Attack;;Impossible;Event
+129;Winter Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Balanced;Water;Impossible;Time-Limited
+130;Elven Awakening Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Light;Possible;Regular
+131;Dark Class Act Lefiya Viridis;Lefiya Viridis;Adventurer;3;Magical Attack;Light;Impossible;Regular
+132;Elf s Honor Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Fire;Possible;Regular
+133;Offshore Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+134;Wicked Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+135;Geisha Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Light;Possible;Regular
+136;Elegant Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Balanced;Water;Possible;Event
+137;Love Magic Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;WaterLight;Impossible;Time-Limited
+138;Model Student Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+139;Melodious Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Fire;Possible;Regular
+140;Maenads Filvis Challia;Filvis Challia;Adventurer;3;Magical Attack;ThunderLight;Impossible;Event
+141;Maenad s Maiden Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Light;Impossible;Regular
+142;Cute Elf Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Thunder;Impossible;Regular
+143;Blessed Elf Filvis Challia;Filvis Challia;Adventurer;4;Balanced;Wind;Possible;Regular
+144;Darkness Overload Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+145;Dazzling Elf Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Fire;Possible;Regular
+146;Gale Ryu Lion;Ryu Lion;Adventurer;4;Balanced;Wind;Possible;Regular
+147;Vampiric Fairy Ryu Lion;Ryu Lion;Adventurer;4;Defensive;Dark;Impossible;Time-Limited
+148;Holy Gale Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Water;Impossible;Time-Limited
+149;Beach Winds Ryu Lion;Ryu Lion;Adventurer;3;Physical Attack;Wind;Impossible;Event
+150;Gale in Yukata Ryu Lion;Ryu Lion;Adventurer;3;Magical Attack;Earth;Impossible;Event
+151;Gale Disguised Ryu Lion;Ryu Lion;Adventurer;4;Balanced;Wind;Possible;Regular
+152;Glistening Elf Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Wind;Impossible;Time-Limited
+153;Pretty Lady Ryu Lion;Ryu Lion;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+154;Roaring Gale Ryu Lion;Ryu Lion;Adventurer;4;Balanced;Light;Possible;Regular
+155;Knight Elf Ryu Lion;Ryu Lion;Adventurer;4;Physical Attack;Wind;Possible;Regular
+156;Lightning Flame Ryu Lion;Ryu Lion;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+157;Foxy Princess Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Balanced;Fire;Possible;Regular
+158;Silver Fox Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Balanced;Water;Possible;Time-Limited
+159;Magnificent Ruler Aisha Belka;Aisha Belka;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+160;Medicinal Archer Naza Ersuisu;Naza Ersuisu;Adventurer;4;Balanced;;Impossible;Regular
+161;The Shadow Fels;Fels;Adventurer;4;Healing;Thunder;Possible;Regular
+162;Cyclops Tsubaki Collbrande;Tsubaki Collbrande;Adventurer;3;Physical Attack;;Impossible;Event
+163;Iron Warrior Tsubaki Collbrande;Tsubaki Collbrande;Adventurer;4;Physical Attack;;Impossible;Regular
+164;Feline Lancer Anya Fromel;Anya Fromel;Adventurer;4;Physical Attack;;Impossible;Regular
+165;Brave Fighter Anya Fromel;Anya Fromel;Adventurer;4;Balanced;Earth;Impossible;Regular
+166;Holiday Cat Anya Fromel;Anya Fromel;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+167;Two Wheel Racer Hermes Hermes;Hermes & Hermes;Adventurer;4;Balanced;Fire;Possible;Time-Limited
+168;Black Cat Chloe Lolo;Chloe Lolo;Adventurer;4;Balanced;Dark;Impossible;Regular
+169;Holly Wreath Chloe Lolo;Chloe Lolo;Adventurer;4;Balanced;Earth;Possible;Event
+170;Gallant Fighter Chloe Lolo;Chloe Lolo;Adventurer;4;Magical Attack;Earth;Possible;Regular
+171;Catty Chloe Lolo;Chloe Lolo;Adventurer;4;Physical Attack;Light;Possible;Regular
+172;Black Fist Lunor Faust;Lunor Faust;Adventurer;4;Physical Attack;Dark;Possible;Regular
+173;Dea Saint Amid Teasanare;Amid Teasanare;Adventurer;4;Healing;;Impossible;Regular
+174;Beach Saint Amid Teasanare;Amid Teasanare;Adventurer;4;Balanced;Water;Possible;Time-Limited
+175;Temporary Healer Amid Teasanare;Amid Teasanare;Adventurer;4;Balanced;Wind;Possible;Regular
+176;Faithful Mage Line Arshe;Line Arshe;Adventurer;4;Balanced;Light;Possible;Regular
+177;Twilight Supporter Line Arshe;Line Arshe;Adventurer;4;Balanced;Light;Possible;Regular
+178;Dogfight Mord Latro;Mord Latro;Adventurer;3;Physical Attack;;Impossible;Regular
+179;Outlaw Style Mord Latro;Mord Latro;Adventurer;4;Physical Attack;Wind;Possible;Event
+180;White Flash Anakitty Autumn;Anakitty Autumn;Adventurer;4;Balanced;Water;Possible;Regular
+181;Twilight Cat Anakitty Autumn;Anakitty Autumn;Adventurer;4;Physical Attack;Light;Possible;Regular
+182;Little Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;;Possible;Time-Limited
+183;Little Wolf Bete Loga;Bete Loga;Adventurer;4;Physical Attack;;Possible;Time-Limited
+184;Little Freese Bell Cranel;Bell Cranel;Adventurer;3;Magical Attack;Light;Impossible;Event
+185;Hyper Energetic Anya Fromel;Anya Fromel;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+186;Absolute Discover Chloe Lolo;Chloe Lolo;Adventurer;4;Balanced;Earth;Possible;Time-Limited
+187;Little Girl Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+188;Zeal Blast Welf Crozzo;Welf Crozzo;Adventurer;4;Defensive;Water;Possible;Time-Limited
+189;Little Detective Lunor Faust;Lunor Faust;Adventurer;3;Physical Attack;;Impossible;Event
+190;Fist Fighter Shakti Varma;Shakti Varma;Adventurer;3;Physical Attack;;Impossible;Event
+191;Casino Lady Shakti Varma;Shakti Varma;Adventurer;4;Balanced;;Possible;Regular
+192;Blue Lotus Shakti Varma;Shakti Varma;Adventurer;4;Physical Attack;Thunder;Possible;Event
+193;Virgin Goddess Artemis;Artemis;Adventurer;4;Balanced;Light;Possible;Regular
+194;Clown Argonaut;Argonaut;Adventurer;4;Physical Attack;Fire;Possible;Event
+195;The Dawn Argonaut;Argonaut;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+196;Deathly Dance Elmina;Elmina;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+197;The Ancestry Crozzo;Crozzo;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+198;Wolven Pride Yuri;Yuri;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+199;Vigorous Hammerer Galmus;Galmus;Adventurer;4;Balanced;Earth;Possible;Time-Limited
+200;Elven Mage Fina;Fina;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+201;High and Proud Hyakinthos Clio;Hyakinthos Clio;Adventurer;4;Physical Attack;Fire;Possible;Regular
+202;Serene Swordsman Daphne Lauros;Daphne Lauros;Adventurer;4;Balanced;Light;Possible;Regular
+203;Cynic Cassandra Ilion;Cassandra Ilion;Adventurer;4;Balanced;Water;Possible;Regular
+204;Wild Fantasy Lena Tally;Lena Tally;Adventurer;4;Physical Attack;Fire;Possible;Regular
+205;Crushing Fighter Samira;Samira;Adventurer;4;Physical Attack;Thunder;Possible;Regular

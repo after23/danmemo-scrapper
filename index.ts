@@ -1,7 +1,13 @@
 import * as puppeteer from "puppeteer";
 import fs from "fs";
 import { characterFileName, skillFileName, assistSkillFileName } from "./const";
-import { writeToFile, characterDataParser, skillDataParser } from "./writer";
+import {
+  writeToFile,
+  characterDataParser,
+  skillDataParser,
+  imgDownload,
+  csvParser,
+} from "./writer";
 
 const selector: any = {
   character:
@@ -51,18 +57,19 @@ const dataParser = (
   return rowData;
 };
 
-async function run() {
-  let browser: puppeteer.Browser | null = null;
-  let counter: number = 750;
-  try {
-    browser = await puppeteer.launch({ headless: "new" });
-    const page: puppeteer.Page = await browser.newPage();
-    let url: string = `https://danmemo.boom-app.wiki/entry/chara-${counter}`;
-    const res: puppeteer.HTTPResponse | null = await page.goto(url);
-    if (res?.status() == 404) {
-      throw new Error("yeow");
+const looper = async (page: puppeteer.Page, counter: number) => {
+  let ids: number[] = csvParser(characterFileName);
+  while (true) {
+    // if (counter == 10) return;
+    if (ids.includes(counter)) {
+      console.log(`${counter}: skipped`);
+      counter++;
+      continue;
     }
-
+    ids.push(counter);
+    const url: string = `https://danmemo.boom-app.wiki/entry/chara-${counter}`;
+    const res: puppeteer.HTTPResponse | null = await page.goto(url);
+    if (!res || res.status() === 404) return;
     const characterData: any = await page.evaluate(
       dataParser,
       counter,
@@ -72,16 +79,6 @@ async function run() {
     // console.log(characterData);
     const characterDataStr: string = characterDataParser(characterData);
     writeToFile(characterFileName, characterDataStr, counter);
-
-    // const selector = "#skill_en";
-    // await page.waitForSelector(selector);
-    // const el = await page.$(selector);
-    // let text;
-    // if (el) {
-    //   text = await el.evaluate((e) => e.nextSibling?.textContent);
-    // }
-    // console.log(text);
-
     const skillData: any = await page.evaluate(
       dataParser,
       counter,
@@ -105,13 +102,22 @@ async function run() {
     const viewSource: puppeteer.HTTPResponse | null = await page.goto(src);
 
     if (!viewSource) return;
-    fs.writeFile(
-      `./img/${counter}.png`,
-      await viewSource.buffer(),
-      function (err: NodeJS.ErrnoException | null) {
-        err ? console.log(err) : console.log("yeay");
-      }
-    );
+    imgDownload(await viewSource.buffer(), counter);
+    console.log(`${counter}: Success`);
+    await new Promise((res) => setTimeout(res, 2000));
+    counter++;
+  }
+};
+
+async function run() {
+  let browser: puppeteer.Browser | null = null;
+  let counter: number = 1;
+  try {
+    browser = await puppeteer.launch({ headless: "new" });
+    if (!browser) throw new Error("browser went oopsies");
+    const page: puppeteer.Page = await browser.newPage();
+    await looper(page, counter);
+    console.log("Finished");
   } catch (err) {
     console.error(err);
   } finally {

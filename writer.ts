@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import * as puppeteer from "puppeteer";
 import { characterFileName, skillFileName, assistSkillFileName } from "./const";
 
 function writeToFile(fileName: string, data: string, id: number): void {
@@ -15,8 +16,6 @@ function writeToFile(fileName: string, data: string, id: number): void {
     }
     fs.writeFileSync(fileName, header, "utf-8");
   }
-  let ids: number[] = csvParser(fileName);
-  if (ids.includes(id)) return;
   data = "\n" + data;
   try {
     fs.appendFileSync(fileName, data);
@@ -34,6 +33,7 @@ const stringFilter = (text: string): string => {
 
 const csvParser = (fileName: string): number[] => {
   const result: number[] = [];
+  if (!fs.existsSync(fileName)) return result;
   const data: string[] = fs
     .readFileSync(fileName, "utf-8")
     .split("\n")
@@ -71,6 +71,16 @@ const skillDataParser = (data: any): string => {
   return res;
 };
 
+const imgDownload = async (buffer: Buffer, counter: number) => {
+  fs.writeFile(
+    `./img/${counter}.png`,
+    buffer,
+    function (err: NodeJS.ErrnoException | null) {
+      err ? console.error(err) : null;
+    }
+  );
+};
+
 // const fd = fs.openSync(fileName, "r+");
 // setImmediate(() => {
 //   fs.close(fd, (err: NodeJS.ErrnoException | null) => {
@@ -79,4 +89,10 @@ const skillDataParser = (data: any): string => {
 //   });
 // });
 
-export { writeToFile, characterDataParser, skillDataParser };
+export {
+  writeToFile,
+  characterDataParser,
+  skillDataParser,
+  imgDownload,
+  csvParser,
+};
