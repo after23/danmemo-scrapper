@@ -204,3 +204,548 @@ id;name;character;category;rarity;type;element;ascension;method obtained
 203;Cynic Cassandra Ilion;Cassandra Ilion;Adventurer;4;Balanced;Water;Possible;Regular
 204;Wild Fantasy Lena Tally;Lena Tally;Adventurer;4;Physical Attack;Fire;Possible;Regular
 205;Crushing Fighter Samira;Samira;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+206;Foreign Traveler Kino Hermes;Kino & Hermes;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+207;Traveler Kino;Kino;Adventurer;3;Physical Attack;;Impossible;Event
+208;Wondering Man Shizu Riku;Shizu & Riku;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+209;Photographer Photo Sou;Photo & Sou;Adventurer;4;Healing;Fire;Possible;Time-Limited
+210;First in Class Mikasa Ackermann;Mikasa Ackermann;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+211;Strongest Soldier Levi;Levi;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+212;Wings of Freedom Eren Jaeger;Eren Jaeger;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+213;Princess Touka Yatogami;Touka Yatogami;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+214;Angel Origami Tobiichi;Origami Tobiichi;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+215;Nightmare Kurumi Tokisaki;Kurumi Tokisaki;Adventurer;4;Balanced;Dark;Possible;Time-Limited
+216;Living Dead Child Bell Cranel;Bell Cranel;Assist;4;;;;Event
+217;Outside Orario Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Regular
+218;Backstage Princess Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Regular
+219;Onsen Samurai Yamato Mikoto;Yamato Mikoto;Assist;4;;;;Regular
+220;Dark Divine Riveria Ljos Alf;Riveria Ljos Alf;Assist;4;;;;Time-Limited
+221;Lawful Judge Asfi Al Andromeda;Asfi Al Andromeda;Assist;4;;;;Regular
+222;Festive Blade Welf Crozzo;Welf Crozzo;Assist;4;;;;Regular
+223;Elegant Vanguard Ryu Lion;Ryu Lion;Assist;4;;;;Time-Limited
+224;Elven Employee Ryu Lion;Ryu Lion;Assist;3;;;;Regular
+225;Silver Pharmacist Naza Ersuisu;Naza Ersuisu;Assist;3;;;;Event
+226;Cyan Naza Ersuisu;Naza Ersuisu;Assist;4;;;;Regular
+227;Ghost Fels;Fels;Assist;4;;;;Time-Limited
+228;Camellia Kimono Tsubaki Collbrande;Tsubaki Collbrande;Assist;4;;;;Regular
+229;Childish Goddess Hestia;Hestia;Assist;1;;;;Regular
+230;Goddess of Hearth Hestia;Hestia;Assist;2;;;;Regular
+231;Goddess of Purity Hestia;Hestia;Assist;3;;;;Regular
+232;Lovebird Hestia;Hestia;Assist;3;;;;Regular
+233;Part time Goddess Hestia;Hestia;Assist;4;;;;Regular
+234;Seaside Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+235;Goddess Devotion Hestia;Hestia;Assist;3;;;;Regular
+236;Mummy Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+237;Jingle Bell Hestia;Hestia;Assist;4;;;;Time-Limited
+238;Dreaming Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+239;Truly Sweet Hestia;Hestia;Assist;4;;;;Time-Limited
+240;Paradise Mood Hestia;Hestia;Assist;4;;;;Regular
+241;Cunning Goddess Hestia;Hestia;Assist;3;;;;Regular
+242;Filmic Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+243;All Abroad Hestia;Hestia;Assist;4;;;;Regular
+244;Ceremonial Flame Hestia;Hestia;Assist;4;;;;Regular
+245;Summer Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+246;Bunny Goddess Hestia;Hestia;Assist;4;;;;Regular
+247;Glitter Goddess Hestia;Hestia;Assist;4;;;;Regular
+248;Reindeer Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+249;Sacred Fire Hestia;Hestia;Assist;4;;;;Regular
+250;Beloved Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+251;Moonlight Reunion Hestia;Hestia;Assist;4;;;;Regular
+252;Chief Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+253;Director Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+254;Pajama Goddess Hestia;Hestia;Assist;4;;;;Regular
+255;Wedding Wish Hestia;Hestia;Assist;4;;;;Regular
+256;Day for Exploring Hestia;Hestia;Assist;4;;;;Time-Limited
+257;Azure Goddess Hestia;Hestia;Assist;4;;;;Regular
+258;Gift Goddess Hestia;Hestia;Assist;4;;;;Event
+259;Crafty Goddess Loki;Loki;Assist;2;;;;Regular
+260;Cheers Loki;Loki;Assist;3;;;;Regular
+261;Trickster Loki;Loki;Assist;3;;;;Regular
+262;Red Quipster Loki;Loki;Assist;3;;;;Regular
+263;Banquet Dress Loki;Loki;Assist;4;;;;Regular
+264;Oni Demon Loki;Loki;Assist;4;;;;Regular
+265;Trickster s Truth Loki;Loki;Assist;4;;;;Regular
+266;Whoever Loki;Loki;Assist;4;;;;Time-Limited
+267;Fertility Staff Syr Flover;Syr Flover;Assist;2;;;;Regular
+268;A Loving Lunch Syr Flover;Syr Flover;Assist;3;;;;Regular
+269;Brightened Pub Syr Flover;Syr Flover;Assist;3;;;;Regular
+270;Pure White Dress Syr Flover;Syr Flover;Assist;4;;;;Regular
+271;Summer Mischief Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+272;Tricky Angel Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+273;Pure White Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+274;Candy Shop Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+275;Countess Syr Flover;Syr Flover;Assist;4;;;;Regular
+276;Holiday Spirit Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+277;Pure Bride Syr Flover;Syr Flover;Assist;4;;;;Regular
+278;Receptionist Eina Tulle;Eina Tulle;Assist;2;;;;Regular
+279;Advisor Eina Tulle;Eina Tulle;Assist;3;;;;Regular
+280;Scholar Eina Tulle;Eina Tulle;Assist;3;;;;Regular
+281;Elf s Gift Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+282;Brains and Beauty Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+283;Guild Inspector Eina Tulle;Eina Tulle;Assist;3;;;;Event
+284;Holy Choir Eina Tulle;Eina Tulle;Assist;4;;;;Time-Limited
+285;Minstrel Elf Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+286;Midsummer Maiden Eina Tulle;Eina Tulle;Assist;4;;;;Event
+287;Handmade Elf Eina Tulle;Eina Tulle;Assist;4;;;;Time-Limited
+288;Valorous Elf Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+289;Wannabe Nerd Eina Tulle;Eina Tulle;Assist;4;;;;Time-Limited
+290;The One Eyed Hephaistios;Hephaistios;Assist;2;;;;Regular
+291;Burning Forge Hephaistios;Hephaistios;Assist;3;;;;Regular
+292;Legendary Artisan Hephaistios;Hephaistios;Assist;3;;;;Regular
+293;Artless Hephaistios;Hephaistios;Assist;4;;;;Regular
+294;Black Rose Hephaistios;Hephaistios;Assist;4;;;;Regular
+295;Intrigued Goddess Freya;Freya;Assist;2;;;;Regular
+296;Devious Emotion Freya;Freya;Assist;3;;;;Regular
+297;Prowling for Lust Freya;Freya;Assist;3;;;;Regular
+298;Banquet Queen Freya;Freya;Assist;4;;;;Regular
+299;Elegant Queen Freya;Freya;Assist;4;;;;Time-Limited
+300;Beautiful Admirer Freya;Freya;Assist;4;;;;Regular
+301;Utmost Beauty Freya;Freya;Assist;4;;;;Regular
+302;Queen of Beauty Freya;Freya;Assist;4;;;;Regular
+303;Dreamy Swimmer Freya;Freya;Assist;4;;;;Event
+304;God of the Masses Ganesha;Ganesha;Assist;2;;;;Regular
+305;Mighty Elephant Ganesha;Ganesha;Assist;3;;;;Regular
+306;Masked God Ganesha;Ganesha;Assist;3;;;;Regular
+307;Maharaja Elephant Ganesha;Ganesha;Assist;4;;;;Regular
+308;Harvest Goddess Demeter;Demeter;Assist;2;;;;Regular
+309;Mother Seedling Demeter;Demeter;Assist;3;;;;Regular
+310;Golden Wheat Demeter;Demeter;Assist;4;;;;Regular
+311;Colonel Demeter;Demeter;Assist;4;;;;Regular
+312;Fertility s Mom Mia Grand;Mia Grand;Assist;2;;;;Regular
+313;Overwhelm Mia Grand;Mia Grand;Assist;3;;;;Regular
+314;Cat Ears Anya Fromel;Anya Fromel;Assist;2;;;;Regular
+315;Lighthearted Anya Fromel;Anya Fromel;Assist;3;;;;Regular
+316;Clumsy Detective Anya Fromel;Anya Fromel;Assist;4;;;;Regular
+317;Pharmacist Miach;Miach;Assist;2;;;;Regular
+318;God of Medicine Miach;Miach;Assist;3;;;;Regular
+319;God Neighbor Miach;Miach;Assist;3;;;;Regular
+320;God of Traveler Hermes;Hermes;Assist;2;;;;Regular
+321;Fearless Smile Hermes;Hermes;Assist;3;;;;Regular
+322;Banquet Attire Hermes;Hermes;Assist;4;;;;Regular
+323;Producer Hermes;Hermes;Assist;4;;;;Event
+324;Guild Worker Misha Flot;Misha Flot;Assist;2;;;;Regular
+325;Workplace Gossip Misha Flot;Misha Flot;Assist;3;;;;Regular
+326;Summer Break Misha Flot;Misha Flot;Assist;4;;;;Time-Limited
+327;Battle God Takemikazuchi;Takemikazuchi;Assist;2;;;;Regular
+328;War Incarnation Takemikazuchi;Takemikazuchi;Assist;3;;;;Regular
+329;Winter War God Takemikazuchi;Takemikazuchi;Assist;4;;;;Time-Limited
+330;Sinister Cat Chloe Lolo;Chloe Lolo;Assist;2;;;;Regular
+331;The Sly Cat Chloe Lolo;Chloe Lolo;Assist;4;;;;Regular
+332;Fertility Helper Lunor Faust;Lunor Faust;Assist;2;;;;Regular
+333;Prideful Waitress Lunor Faust;Lunor Faust;Assist;3;;;;Regular
+334;Dungeon Waitress Lunor Faust;Lunor Faust;Assist;4;;;;Regular
+335;White Healer Amid Teasanare;Amid Teasanare;Assist;4;;;;Regular
+336;Modern Medicine Amid Teasanare;Amid Teasanare;Assist;3;;;;Regular
+337;Tipsy Gaze Dionysus;Dionysus;Assist;3;;;;Regular
+338;Classy God Dionysus;Dionysus;Assist;3;;;;Regular
+339;God of Wine Dionysus;Dionysus;Assist;4;;;;Regular
+340;Elder Smith Goibniu;Goibniu;Assist;2;;;;Regular
+341;Godly Swordsmith Goibniu;Goibniu;Assist;3;;;;Regular
+342;God of Origins Ouranos;Ouranos;Assist;4;;;;Regular
+343;Little Dame Riveria Ljos Alf;Riveria Ljos Alf;Assist;4;;;;Time-Limited
+344;Elven Childhood Lefiya Viridis;Lefiya Viridis;Assist;4;;;;Time-Limited
+345;Young Blacksmith Hephaistios;Hephaistios;Assist;4;;;;Time-Limited
+346;Little Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+347;Vigorous Medi God Diancecht;Diancecht;Assist;3;;;;Event
+348;Innocent Goddess Artemis;Artemis;Assist;4;;;;Regular
+349;Sleeping Innocence Artemis;Artemis;Assist;4;;;;Regular
+350;Chained Reign Ariadne;Ariadne;Assist;4;;;;Time-Limited
+351;Final Reminiscence Ariadne;Ariadne;Assist;4;;;;Time-Limited
+352;In The End Orna;Orna;Assist;4;;;;Time-Limited
+353;Nomadic Bard Ryulu;Ryulu;Assist;4;;;;Time-Limited
+354;God of Light Apollo;Apollo;Assist;4;;;;Regular
+355;Sacred Cup Soma;Soma;Assist;4;;;;Regular
+356;The Night Queen Ishtar;Ishtar;Assist;4;;;;Regular
+357;God of War Ares;Ares;Assist;4;;;;Regular
+358;Explosive Girl Ti;Ti;Assist;4;;;;Time-Limited
+359;Sharp Thinker Armin Arlert;Armin Arlert;Assist;4;;;;Time-Limited
+360;Uncontrollable Titan Eren;Titan Eren;Assist;4;;;;Time-Limited
+361;Berserk Kaguya Liliruca;Kaguya & Liliruca;Assist;4;;;;Event
+362;Efreet Kotori Itsuka;Kotori Itsuka;Assist;4;;;;Time-Limited
+363;Sword Unleashed Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+364;Scarlet Elf Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+365;Brave Antianeira Aisha Belka;Aisha Belka;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+366;Invincible Master Tsubaki Collbrande;Tsubaki Collbrande;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+367;Unbreakable Heart Liliruca Arde;Liliruca Arde;Adventurer;4;Balanced;Water;Possible;Regular
+368;Yellow Bird Hestia;Hestia;Assist;4;;;;Regular
+369;Festive Royale Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Light;Possible;Regular
+370;Lone Werewolf Bete Loga;Bete Loga;Adventurer;4;Physical Attack;Light;Possible;Regular
+371;Sneaky Cat Anya Fromel;Anya Fromel;Adventurer;4;Physical Attack;Light;Possible;Regular
+372;Laurel Mistral Daphne Lauros;Daphne Lauros;Adventurer;4;Balanced;Wind;Possible;Regular
+373;First Dream Cassandra Ilion;Cassandra Ilion;Adventurer;4;Magical Attack;Wind;Possible;Event
+374;New Year Kimono Syr Flover;Syr Flover;Assist;4;;;;Regular
+375;New Year Medic Miach;Miach;Assist;4;;;;Regular
+376;Spirit Conquest Shido Itsuka;Shido Itsuka;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+377;Blast Fire Kotori Itsuka;Kotori Itsuka;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+378;Swimsuit Contest Hestia;Hestia;Assist;4;;;;Regular
+379;Demonslayer Samurai Kashima Ouka;Kashima Ouka;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+380;Silver Adventurer Goblin Slayer;Goblin Slayer;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+381;Affectionate Maiden Priestess;Priestess;Adventurer;4;Balanced;Thunder;Possible;Time-Limited
+382;Stellar Wind High Elf Archer;High Elf Archer;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+383;Lightning Flash Noble Fencer;Noble Fencer;Adventurer;4;Physical Attack;Thunder;Possible;Event
+384;Cowgirl Dress Hitachi Chigusa;Hitachi Chigusa;Assist;4;;;;Time-Limited
+385;At Home Cow Girl;Cow Girl;Assist;4;;;;Time-Limited
+386;Elven Gale Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+387;Priestess Image Amid Teasanare;Amid Teasanare;Adventurer;4;Balanced;Dark;Possible;Time-Limited
+388;Hero of Six Sword Maiden;Sword Maiden;Assist;4;;;;Time-Limited
+389;Ready for Act Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Fire;Possible;Event
+390;New Armed Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Water;Possible;Regular
+391;Arcanic Cascade Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Water;Possible;Regular
+392;Dueling Caster Alicia Forestlight;Alicia Forestlight;Adventurer;4;Balanced;Water;Possible;Regular
+393;Delightful Mage Elfy Colette;Elfy Colette;Adventurer;4;Magical Attack;Fire;Possible;Regular
+394;Adventurer s Set Hestia;Hestia;Assist;4;;;;Regular
+395;Gallant Formal Hephaistios;Hephaistios;Assist;4;;;;Regular
+396;Food Fighter Kino;Kino;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+397;Lightspeed Allen Fromel;Allen Fromel;Adventurer;4;Physical Attack;Earth;Possible;Regular
+398;Black Raid Alfrigg Gulliver;Alfrigg Gulliver;Adventurer;4;Physical Attack;Earth;Possible;Regular
+399;Pacific Rhapsody Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+400;An Ocean of Virtue Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Magical Attack;Light;Possible;Regular
+401;Dreamy Beach Cassandra Ilion;Cassandra Ilion;Adventurer;4;Balanced;Thunder;Possible;Regular
+402;Swimsuit Swordsman Daphne Lauros;Daphne Lauros;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+403;Your Favorite Liliruca Arde;Liliruca Arde;Assist;4;;;;Regular
+404;Bathing Beauty Yamato Mikoto;Yamato Mikoto;Assist;4;;;;Regular
+405;Pyonkichi MK II Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+406;Mobile Suit Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Event
+407;Space Ribbon Hestia;Hestia;Assist;4;;;;Time-Limited
+408;Fierce Rage Ottarl;Ottarl;Adventurer;4;Physical Attack;Dark;Possible;Regular
+409;Captivating Beauty Freya;Freya;Assist;4;;;;Regular
+410;Patissiere Yamato Mikoto;Yamato Mikoto;Adventurer;4;Balanced;Fire;Possible;Regular
+411;Determination Welf Crozzo;Welf Crozzo;Adventurer;4;Magical Attack;Fire;Possible;Regular
+412;Faithful Liliruca Arde;Liliruca Arde;Adventurer;4;Physical Attack;Dark;Possible;Regular
+413;Devotion Sanjouno Haruhime;Sanjouno Haruhime;Assist;4;;;;Regular
+414;Brave Spearman Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;Light;Possible;Regular
+415;Crimson Balefire Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Fire;Possible;Regular
+416;Gallant Armor Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Light;Possible;Regular
+417;Duel Strive Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Light;Possible;Regular
+418;Faithful Formal Syr Flover;Syr Flover;Assist;4;;;;Regular
+419;Spring Sky Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+420;Thunderous Blade Argonaut;Argonaut;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+421;Elven Flash Fina;Fina;Adventurer;4;Magical Attack;Thunder;Possible;Time-Limited
+422;Pasture Goddess Hestia;Hestia;Assist;4;;;;Regular
+423;Wind of Purity Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Wind;Possible;Event
+424;Flaming Blade Alise Lovell;Alise Lovell;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+425;Faith Keeper Ardee Varma;Ardee Varma;Adventurer;4;Balanced;Water;Possible;Time-Limited
+426;Ninth Duel Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+427;Roaring Axe Gareth Landrock;Gareth Landrock;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+428;Justice Guardian Astrea;Astrea;Assist;4;;;;Time-Limited
+429;Key Strategist Finn Deimne;Finn Deimne;Assist;4;;;;Time-Limited
+430;Storm Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+431;City Guardian Shakti Varma;Shakti Varma;Adventurer;4;Balanced;Wind;Possible;Time-Limited
+432;Conspired Hand Lyra;Lyra;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+433;Scarlet Sword Gojouno Kaguya;Gojouno Kaguya;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+434;Devoted Hand Syr Flover;Syr Flover;Assist;4;;;;Time-Limited
+435;Wings of Succession Asfi Al Andromeda;Asfi Al Andromeda;Assist;4;;;;Time-Limited
+436;Fiesta Freese Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Light;Possible;Regular
+437;Celebration Goddess Hestia;Hestia;Assist;4;;;;Regular
+438;Justice Succession Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+439;Flaming Will Alise Lovell;Alise Lovell;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+440;Unwavering Spear Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+441;The King s War Ottarl;Ottarl;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+442;Bursting Chariot Allen Fromel;Allen Fromel;Assist;4;;;;Time-Limited
+443;Divine Gaze Freya;Freya;Assist;4;;;;Time-Limited
+444;the Origin of Darkness Erebus;Erebus;Assist;4;;;;Time-Limited
+445;Predator Zard;Zard;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+446;Silence Alfia;Alfia;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+447;Sunset Saint Amid Teasanare;Amid Teasanare;Adventurer;4;Balanced;Light;Possible;Event
+448;Seabreeze Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Water;Possible;Regular
+449;Blazing Fist Lunor Faust;Lunor Faust;Adventurer;4;Physical Attack;Water;Possible;Regular
+450;Foxy Yukata Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Physical Attack;Water;Possible;Regular
+451;Azure Bloom Lena Tally;Lena Tally;Adventurer;4;Magical Attack;Light;Possible;Regular
+452;Carnival Goddess Hestia;Hestia;Assist;4;;;;Regular
+453;Summer Color Syr Flover;Syr Flover;Assist;4;;;;Regular
+454;Operation Idol Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Balanced;Earth;Possible;Regular
+455;Muddle Lulune Louie;Lulune Louie;Adventurer;4;Magical Attack;Earth;Possible;Regular
+456;The Dragon s Daughter Wiene;Wiene;Assist;4;;;;Regular
+457;Marine Snake Tione Hiryute;Tione Hiryute;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+458;Marine Amazon Tiona Hiryute;Tiona Hiryute;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+459;Marine Thousand Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+460;Marine Sword Princess Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Regular
+461;Swimsuit Jester Loki;Loki;Assist;4;;;;Regular
+462;Port City Fisher Njord;Njord;Assist;4;;;;Event
+463;I m working Hestia;Hestia;Assist;4;;;;Regular
+464;Maverick Swordsman Lyd;Lyd;Adventurer;4;Physical Attack;Fire;Possible;Regular
+465;Golden Feathers Ray;Ray;Adventurer;4;Magical Attack;Wind;Possible;Regular
+466;Valiant Intensity Tione Hiryute;Tione Hiryute;Adventurer;4;Physical Attack;Dark;Possible;Regular
+467;Bursting Intensity Tiona Hiryute;Tiona Hiryute;Adventurer;4;Physical Attack;Dark;Possible;Regular
+468;Pearly Renard Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Magical Attack;Wind;Possible;Regular
+469;Alluring Dancer Aisha Belka;Aisha Belka;Assist;4;;;;Regular
+470;Crimson Feathers Fear;Fear;Adventurer;4;Magical Attack;Wind;Possible;Regular
+471;Divine Skies Ouranos;Ouranos;Assist;4;;;;Regular
+472;The Goddess s Shadow Argana Kalif;Argana Kalif;Adventurer;4;Physical Attack;Dark;Possible;Regular
+473;The Poison Queen Bache Kalif;Bache Kalif;Adventurer;4;Physical Attack;Dark;Possible;Regular
+474;The Warrior God Kali;Kali;Assist;4;;;;Regular
+475;In Dreams Sanjouno Haruhime;Sanjouno Haruhime;Assist;4;;;;Regular
+476;Forbidden Chant Fels;Fels;Adventurer;4;Balanced;Light;Possible;Regular
+477;Merry Maiden Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+478;Intoxicating Elf Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+479;Tipsy Tabby Anakitty Autumn;Anakitty Autumn;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+480;Glistening Knight Raul Nord;Raul Nord;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+481;Dazed Elf Lefiya Viridis;Lefiya Viridis;Assist;4;;;;Time-Limited
+482;Classy Noble Dionysus;Dionysus;Assist;4;;;;Event
+483;Dazed Master Soma;Soma;Assist;4;;;;Time-Limited
+484;The Ivory Maiden Syr Flover;Syr Flover;Assist;4;;;;Regular
+485;Glacier Blade Welf Crozzo;Welf Crozzo;Adventurer;4;Magical Attack;Water;Possible;Regular
+486;Drakguard s Will Wiene;Wiene;Adventurer;4;Physical Attack;Earth;Possible;Regular
+487;Decisive Will Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Fire;Possible;Regular
+488;Thermae Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Earth;Possible;Regular
+489;Steamy Amazon Tiona Hiryute;Tiona Hiryute;Adventurer;4;Magical Attack;Fire;Possible;Regular
+490;Hazy Vixen Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Balanced;Earth;Possible;Regular
+491;Rejuvenated Antianeira Aisha Belka;Aisha Belka;Adventurer;4;Magical Attack;Fire;Possible;Regular
+492;Drenched Deity Hestia;Hestia;Assist;4;;;;Regular
+493;Ensconced Elf Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+494;Hot Spring Incident Apollo;Apollo;Assist;4;;;;Event
+495;Petite Treat Liliruca Arde;Liliruca Arde;Adventurer;4;Physical Attack;Light;Possible;Regular
+496;Sweet Tooth Tabby Anya Fromel;Anya Fromel;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+497;Candied Kitty Chloe Lolo;Chloe Lolo;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+498;Sweetheart Dragon Wiene;Wiene;Adventurer;4;Balanced;Light;Possible;Regular
+499;Sweet Vixen Sanjouno Haruhime;Sanjouno Haruhime;Assist;4;;;;Regular
+500;Golden Sweetie Ray;Ray;Assist;4;;;;Event
+501;Crimson Sweetie Fear;Fear;Assist;4;;;;Regular
+502;Uniformed Werewolf Bete Loga;Bete Loga;Adventurer;4;Physical Attack;Water;Possible;Regular
+503;Uniformed Jester Loki;Loki;Assist;4;;;;Regular
+504;Liaris Blanc Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Water;Possible;Regular
+505;Gracious Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Fire;Possible;Regular
+506;Braver Blanc Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;Water;Possible;Regular
+507;Royal Mage Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Fire;Possible;Regular
+508;Werewolf Blanc Bete Loga;Bete Loga;Assist;4;;;;Regular
+509;Elgarm Blanc Gareth Landrock;Gareth Landrock;Assist;4;;;;Regular
+510;Haar Ghost Fels;Fels;Assist;4;;;;Event
+511;Intrepid Elgarm Gareth Landrock;Gareth Landrock;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+512;Glinting Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Light;Possible;Regular
+513;Youthful Goddess Hestia Girl;Hestia (Girl);Assist;4;;;;Time-Limited
+514;Uniform Hound Naza Ersuisu;Naza Ersuisu;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+515;Baby Sitter Yukina Himeragi;Yukina Himeragi;Adventurer;4;Physical Attack;Wind;Possible;Event
+516;Royalty La Folia Rihavein;La Folia Rihavein;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+517;Shamanic War Dancer Sayaka Kirasaka;Sayaka Kirasaka;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+518;Royal Sword Princess Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Time-Limited
+519;Uniform Elf Lefiya Viridis;Lefiya Viridis;Assist;4;;;;Time-Limited
+520;Sword Shaman Ribbon Yukina Himeragi;Yukina Himeragi;Assist;4;;;;Time-Limited
+521;DPS Psycho Lefiya Viridis;Lefiya Viridis;Adventurer;4;Physical Attack;Light;Possible;Event
+522;Jade Comet Ryu Lion;Ryu Lion;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+523;Advisor Mech Liliruca Arde;Liliruca Arde;Assist;4;;;;Time-Limited
+524;Neo Fox Sanjouno Haruhime;Sanjouno Haruhime;Assist;4;;;;Time-Limited
+525;Blood Ties Welf Crozzo;Welf Crozzo;Adventurer;4;Magical Attack;Thunder;Possible;Time-Limited
+526;The Fourth Primogenitor Kojo Akatsuki;Kojo Akatsuki;Adventurer;4;Magical Attack;Thunder;Possible;Time-Limited
+527;Sword Shaman Yukina Himeragi;Yukina Himeragi;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+528;Sister of Primogenitor Nagisa Akatsuki;Nagisa Akatsuki;Assist;4;;;;Time-Limited
+529;Waterside Eden Alicia Forestlight;Alicia Forestlight;Adventurer;4;Magical Attack;Earth;Possible;Regular
+530;Waterside Grimoire Elfy Colette;Elfy Colette;Adventurer;4;Magical Attack;Earth;Possible;Regular
+531;Girly Boy Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Earth;Possible;Regular
+532;Demon King Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Dark;Possible;Regular
+533;Evil Business Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Magical Attack;Dark;Possible;Regular
+534;Hero Goddess Hestia;Hestia;Adventurer;4;Magical Attack;Earth;Possible;Regular
+535;Petite Spirit Liliruca Arde;Liliruca Arde;Assist;4;;;;Regular
+536;Divine Spirit Hestia;Hestia;Assist;4;;;;Event
+537;Live Commentator Hermes;Hermes;Assist;4;;;;Regular
+538;Youthful Sword Princess Ais Girl;Ais (Girl);Assist;4;;;;Time-Limited
+539;Gleaming Freese Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+540;The Entruster Zard;Zard;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+541;Entrusted Sound Alfia;Alfia;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+542;Unbreakable Freese Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+543;Devoted Sniper Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+544;Dauntless Blade Welf Crozzo;Welf Crozzo;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+545;Foxy Prayer Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Balanced;Wind;Possible;Time-Limited
+546;Goddess of Salvation Hestia;Hestia;Assist;4;;;;Time-Limited
+547;Vibrant Beauty Aphrodite;Aphrodite;Assist;4;;;;Time-Limited
+548;Antiquity Priestess Ilia;Ilia;Assist;4;;;;Time-Limited
+549;Lunar Blesser Aphrodite;Aphrodite;Adventurer;4;Magical Attack;Water;Possible;Regular
+550;Moon Drop Artemis;Artemis;Assist;4;;;;Regular
+551;Unbreakable Freese Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+552;Devoted Sniper Liliruca Arde;Liliruca Arde;Adventurer;4;Balanced;Thunder;Possible;Time-Limited
+553;Dauntless Blade Welf Crozzo;Welf Crozzo;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+554;Lunar Blesser Aphrodite;Aphrodite;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+555;Moon Drop Artemis;Artemis;Assist;4;;;;Time-Limited
+556;Vibrant Beauty Aphrodite;Aphrodite;Assist;4;;;;Time-Limited
+557;Fiesta Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Wind;Possible;Regular
+558;Fiesta Princess Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Regular
+559;Shadow Elf Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Dark;Possible;Regular
+560;Transfiguration Liliruca Arde;Liliruca Arde;Assist;4;;;;Regular
+561;Devoted Sniper Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+562;Dauntless Blade Welf Crozzo;Welf Crozzo;Adventurer;4;Magical Attack;Water;Possible;Time-Limited
+563;Shadow Elf Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+564;Transfiguration Liliruca Arde;Liliruca Arde;Assist;4;;;;Time-Limited
+565;Vibrant Beauty Aphrodite;Aphrodite;Assist;4;;;;Time-Limited
+566;Antiquity Priestess Ilia;Ilia;Assist;4;;;;Time-Limited
+567;Eternal Holy Flame Vesta;Vesta;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+568;Black Flame Hero Epimetheus;Epimetheus;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+569;God of Foresight Prometheus;Prometheus;Assist;4;;;;Time-Limited
+570;Love Spell Hitachi Chigusa;Hitachi Chigusa;Adventurer;4;Magical Attack;Dark;Possible;Regular
+571;Nocturnal Elf Ryu Lion;Ryu Lion;Adventurer;4;Physical Attack;Dark;Possible;Regular
+572;Midnight Virtue Alicia Forestlight;Alicia Forestlight;Adventurer;4;Balanced;Wind;Possible;Regular
+573;Beauty Tips and Tricks Elfy Colette;Elfy Colette;Adventurer;4;Magical Attack;Dark;Possible;Regular
+574;Guardian Cat Allen Fromel;Allen Fromel;Adventurer;4;Physical Attack;Wind;Possible;Event
+575;Secret Crush Syr Flover;Syr Flover;Assist;4;;;;Regular
+576;On a Mission Eina Tulle;Eina Tulle;Assist;4;;;;Regular
+577;Tropical Tabby Anakitty Autumn;Anakitty Autumn;Adventurer;4;Physical Attack;Earth;Possible;Regular
+578;Seaside Supporter Line Arshe;Line Arshe;Adventurer;4;Physical Attack;Earth;Possible;Regular
+579;Enemy Invasion Naza Ersuisu;Naza Ersuisu;Adventurer;4;Physical Attack;Earth;Possible;Regular
+580;Hot Spring Saint Amid Teasanare;Amid Teasanare;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+581;Laurel Agent Daphne Lauros;Daphne Lauros;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+582;Dreamy Agent Cassandra Ilion;Cassandra Ilion;Adventurer;4;Magical Attack;Earth;Possible;Regular
+583;Bath Singer Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Regular
+584;Magnificent Bath God Diancecht;Diancecht;Assist;4;;;;Regular
+585;Infiltrating Medi God Miach;Miach;Assist;4;;;;Event
+586;Maiden Strike Tione Hiryute;Tione Hiryute;Assist;4;;;;Regular
+587;Girly Stomp Tiona Hiryute;Tiona Hiryute;Assist;4;;;;Regular
+588;Cradling Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+589;Priestess Gale Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+590;Dual Sword Savior Thillelille;Thillelille;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+591;Cat Loving Cleric Mariel;Mariel;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+592;Spacetime Adventurer Aldo;Aldo;Adventurer;4;Physical Attack;Fire;Possible;Event
+593;Savior Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+594;Friendly Maiden Feinne;Feinne;Assist;4;;;;Event
+595;Azure Star Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Light;Possible;Regular
+596;Wandering Producer Finn Deimne;Finn Deimne;Adventurer;4;Magical Attack;Water;Possible;Regular
+597;Azure Star Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Water;Possible;Regular
+598;Kitty Star Filvis Challia;Filvis Challia;Adventurer;4;Physical Attack;Fire;Possible;Regular
+599;Equine Star Liliruca Arde;Liliruca Arde;Assist;4;;;;Regular
+600;Azure Star Saint Amid Teasanare;Amid Teasanare;Assist;4;;;;Regular
+601;Foxy Star Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Physical Attack;Water;Possible;Event
+602;Winter Guardian Riddari;Riddari;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+603;Beyond Winter Talvi;Talvi;Assist;4;;;;Time-Limited
+604;The Amused Vera;Vera;Assist;4;;;;Time-Limited
+605;Unbroken Chain Alfrik Gulliver;Alfrik Gulliver;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+606;White Demon s Wand Hedin Selrand;Hedin Selrand;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+607;Black Demon s Sword Hegni Ragnar;Hegni Ragnar;Adventurer;4;Physical Attack;Dark;Possible;Regular
+608;Desert Bloom Freya;Freya;Assist;4;;;;Regular
+609;Desert Bravery Ottarl;Ottarl;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+610;Vana Freya Allen Fromel;Allen Fromel;Adventurer;4;Physical Attack;Dark;Possible;Regular
+611;The King s Path Ali;Ali;Assist;4;;;;Regular
+612;Rising Gargoyle Gros;Gros;Adventurer;4;Physical Attack;Earth;Possible;Regular
+613;With the Comrades Wiene;Wiene;Assist;4;;;;Regular
+614;Glorious Elgarm Gareth Landrock;Gareth Landrock;Adventurer;4;Physical Attack;Earth;Possible;Regular
+615;The Phantom Revis;Revis;Adventurer;4;Physical Attack;Dark;Possible;Regular
+616;Fantasy Bunny Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Wind;Possible;Regular
+617;Confusion Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Fire;Possible;Regular
+618;Dreamful Elf Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Wind;Possible;Regular
+619;Delusional Elf Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Fire;Possible;Regular
+620;Passionate Author Yamato Mikoto;Yamato Mikoto;Assist;4;;;;Event
+621;Skilled Perseus Asfi Al Andromeda;Asfi Al Andromeda;Assist;4;;;;Regular
+622;Creator Goddess Hestia;Hestia;Assist;4;;;;Regular
+623;The Path Ariadne;Ariadne;Assist;4;;;;Time-Limited
+624;Record Keeper Orna;Orna;Assist;4;;;;Time-Limited
+625;Eternal Oath Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+626;The Worst Spirit Kurumi Tokisaki;Kurumi Tokisaki;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+627;Devil Origami Tobiichi;Origami Tobiichi;Adventurer;4;Magical Attack;Dark;Possible;Time-Limited
+628;Hermit Yoshino;Yoshino;Adventurer;4;Balanced;Water;Possible;Time-Limited
+629;Forger Mirabilis Cassandra Ilion;Cassandra Ilion;Assist;4;;;;Time-Limited
+630;The Delightful Touka Yatogami;Touka Yatogami;Assist;4;;;;Time-Limited
+631;Witch Natsumi;Natsumi;Assist;4;;;;Event
+632;Divine Will Unleashed Touka Yatogami;Touka Yatogami;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+633;Idealized Comedy Argonaut;Argonaut;Assist;4;;;;Time-Limited
+634;Tempestuous Blade Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Wind;Possible;Regular
+635;Turbulent Temper Tione Hiryute;Tione Hiryute;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+636;Elgarm Roar Gareth Landrock;Gareth Landrock;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+637;Noble Heart Anakitty Autumn;Anakitty Autumn;Adventurer;4;Physical Attack;Water;Possible;Regular
+638;Turbulent Rage Tiona Hiryute;Tiona Hiryute;Assist;4;;;;Regular
+639;The Bearer Raul Nord;Raul Nord;Assist;4;;;;Regular
+640;Infinite Firebolt Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+641;The Executioner Menou;Menou;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+642;A Lost One Akari;Akari;Assist;4;;;;Time-Limited
+643;Executioner Assistant Momo;Momo;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+644;Lost Goddess Hestia;Hestia;Assist;4;;;;Time-Limited
+645;Soul s Prayer Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Earth;Possible;Regular
+646;Conflagrant Scar Bete Loga;Bete Loga;Adventurer;4;Physical Attack;Fire;Possible;Regular
+647;Cherishing Girl Line Arshe;Line Arshe;Assist;4;;;;Regular
+648;Affectionate Bloom Lena Tally;Lena Tally;Assist;4;;;;Regular
+649;Princess Knight Ashuna;Ashuna;Adventurer;4;Physical Attack;Fire;Possible;Time-Limited
+650;Executioner Sword Princess Ais Wallenstein;Ais Wallenstein;Assist;4;;;;Time-Limited
+651;Aethon s Hero Epimetheus;Epimetheus;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+652;Sanctuary Priestess Ilia;Ilia;Adventurer;4;Magical Attack;Fire;Possible;Time-Limited
+653;Saint s Spear Fianna;Fianna;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+654;Knight Advisor Helga;Helga;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+655;Knight Companion Lazar Diarmaid;Lazar Diarmaid;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+656;Knight s Bow Melia;Melia;Adventurer;4;Balanced;Wind;Possible;Time-Limited
+657;Dreamer Dim;Dim;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+658;Observer Ryulu;Ryulu;Assist;4;;;;Time-Limited
+659;Feline Page Felice;Felice;Assist;4;;;;Time-Limited
+660;Fiesta Gale Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+661;Festive Girl Syr Flover;Syr Flover;Assist;4;;;;Regular
+662;Gifted Sword Lazar Diarmaid;Lazar Diarmaid;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+663;Artificial Hero Finn;Finn;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+664;Hidden Feelings Felice;Felice;Assist;4;;;;Time-Limited
+665;New Adventure Bell Cranel;Bell Cranel;Adventurer;4;Magical Attack;Fire;Possible;Regular
+666;Commander Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Water;Possible;Regular
+667;Battle Dance Elmina;Elmina;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+668;Mighty Valor Galmus;Galmus;Adventurer;4;Physical Attack;Earth;Possible;Time-Limited
+669;Beastly Warrior Yuri;Yuri;Adventurer;4;Physical Attack;Wind;Possible;Time-Limited
+670;True Courage Spear Finn;Finn;Adventurer;4;Physical Attack;Light;Possible;Time-Limited
+671;Queen s Oath Alkittiene;Alkittiene;Assist;4;;;;Time-Limited
+672;Hound s Oath Alf;Alf;Assist;4;;;;Time-Limited
+673;Samurai Flash Yamato Mikoto;Yamato Mikoto;Adventurer;4;Magical Attack;Wind;Possible;Regular
+674;Mermaid Mari;Mari;Assist;4;;;;Regular
+675;Nine Tailed Manifestation Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Balanced;Light;Possible;Regular
+676;Fierce Antianeira Aisha Belka;Aisha Belka;Adventurer;4;Physical Attack;Dark;Possible;Regular
+677;Supply Princess Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Earth;Possible;Regular
+678;Secondary Samurai Yamato Mikoto;Yamato Mikoto;Adventurer;4;Magical Attack;Earth;Possible;Regular
+679;Thousand Supply Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Earth;Possible;Regular
+680;Dark Grin Wiene;Wiene;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+681;Secondary Fox Sanjouno Haruhime;Sanjouno Haruhime;Assist;4;;;;Regular
+682;Siren Maiden Ray;Ray;Assist;4;;;;Regular
+683;Mecha Reptile Lyd;Lyd;Assist;4;;;;Regular
+684;Calamity Prophecy Cassandra Ilion;Cassandra Ilion;Assist;4;;;;Regular
+685;Kougou Warrior Kashima Ouka;Kashima Ouka;Adventurer;4;Physical Attack;Water;Possible;Regular
+686;Archnia Valletta Grede;Valletta Grede;Adventurer;4;Physical Attack;Dark;Possible;Regular
+687;Hazer Dix Perdix;Dix Perdix;Adventurer;4;Magical Attack;Dark;Possible;Regular
+688;Archer s Protection Hitachi Chigusa;Hitachi Chigusa;Assist;4;;;;Regular
+689;Desperate Determinator Ryu Lion;Ryu Lion;Assist;4;;;;Regular
+690;Wind Recollections Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Wind;Possible;Regular
+691;Motherly Elf Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Wind;Possible;Regular
+692;Devoted Armor Tsubaki Collbrande;Tsubaki Collbrande;Adventurer;4;Physical Attack;Fire;Possible;Regular
+693;Braver Instructor Finn Deimne;Finn Deimne;Assist;4;;;;Regular
+694;Argo Rabbit Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Fire;Possible;Regular
+695;Faith Song Ardee Varma;Ardee Varma;Adventurer;4;Balanced;Wind;Possible;Time-Limited
+696;Harnel of Flame Alise Lovell;Alise Lovell;Adventurer;4;Magical Attack;Light;Possible;Time-Limited
+697;Lost Girl Ais Wallenstein;Ais Wallenstein;Adventurer;4;Physical Attack;Water;Possible;Regular
+698;White Queen Riveria Ljos Alf;Riveria Ljos Alf;Adventurer;4;Magical Attack;Fire;Possible;Regular
+699;Cheshire Cat Anakitty Autumn;Anakitty Autumn;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+700;Knight of Clubs Raul Nord;Raul Nord;Adventurer;4;Physical Attack;Water;Possible;Regular
+701;Tea Party Rabbit Bell Cranel;Bell Cranel;Assist;4;;;;Regular
+702;Mad Hatter Hermes;Hermes;Assist;4;;;;Regular
+703;Justice Tactician Lyra;Lyra;Adventurer;4;Magical Attack;Thunder;Possible;Time-Limited
+704;Justice Flash Gojouno Kaguya;Gojouno Kaguya;Adventurer;4;Physical Attack;Dark;Possible;Time-Limited
+705;Pallum s Gift Liliruca Arde;Liliruca Arde;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+706;Fox s Gift Sanjouno Haruhime;Sanjouno Haruhime;Adventurer;4;Physical Attack;Thunder;Possible;Time-Limited
+707;Dragon Girl s Gift Wiene;Wiene;Adventurer;4;Physical Attack;Water;Possible;Time-Limited
+708;Festive Night Fear;Fear;Adventurer;4;Magical Attack;Earth;Possible;Time-Limited
+709;Goddess Gift Hestia;Hestia;Assist;4;;;;Time-Limited
+710;Elf s Holy Night Eina Tulle;Eina Tulle;Assist;4;;;;Time-Limited
+711;Star Maiden s Sword Astrea;Astrea;Assist;4;;;;Time-Limited
+712;Foundation of the Future Erebus;Erebus;Assist;4;;;;Time-Limited
+713;Hero s Destiny Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Light;Possible;Hero Festa Ltd.
+714;Rematch Pact Asterius;Asterius;Adventurer;4;Physical Attack;Dark;Possible;Hero Festa Ltd.
+715;Rowdy Guest Asfi Al Andromeda;Asfi Al Andromeda;Adventurer;4;Magical Attack;Light;Possible;Regular
+716;Party Goddess Aphrodite;Aphrodite;Adventurer;4;Magical Attack;Water;Possible;Regular
+717;Uraba Sword Hedin Selrand;Hedin Selrand;Adventurer;4;Magical Attack;Water;Possible;Regular
+718;Edgy Dreamer Hegni Ragnar;Hegni Ragnar;Adventurer;4;Physical Attack;Dark;Possible;Regular
+719;Camellia Girl Syr Flover;Syr Flover;Assist;4;;;;Regular
+720;Conceited Host Allen Fromel;Allen Fromel;Assist;4;;;;Regular
+721;New Year s Message Alfrik Gulliver;Alfrik Gulliver;Assist;4;;;;Event
+722;Rabbit Star Legacy Bell Cranel;Bell Cranel;Adventurer;4;Physical Attack;Wind;Possible;Regular
+723;Beyond the Blessing Line Arshe;Line Arshe;Assist;4;;;;Regular
+724;Love Blossom Lena Tally;Lena Tally;Assist;4;;;;Regular
+725;Defeater of Despair Cassandra Ilion;Cassandra Ilion;Adventurer;4;Magical Attack;Water;Possible;Regular
+726;Will of Faith Daphne Lauros;Daphne Lauros;Adventurer;4;Physical Attack;Earth;Possible;Regular
+727;Beastly Rescue Squad Anya Fromel;Anya Fromel;Assist;4;;;;Regular
+728;Emerald Starlight Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Wind;Possible;Hero Festa Ltd.
+729;Crimson Executioner Alise Lovell;Alise Lovell;Adventurer;4;Magical Attack;Fire;Possible;Hero Festa Ltd.
+730;Path of the Artisan Welf Crozzo;Welf Crozzo;Adventurer;4;Magical Attack;Fire;Possible;Regular
+731;Gojou Flash Gojouno Kaguya;Gojouno Kaguya;Adventurer;4;Physical Attack;Dark;Possible;Regular
+732;Song of Awakening Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Thunder;Possible;Time-Limited
+733;Justice and Order Astrea;Astrea;Assist;4;;;;Regular
+734;Knowledge and Wisdom Lyra;Lyra;Assist;4;;;;Regular
+735;Serene Dreams Alfia;Alfia;Adventurer;4;Magical Attack;Wind;Possible;Time-Limited
+736;Crossroad Dreams Zard;Zard;Assist;4;;;;Time-Limited
+737;Crimson Will Alise Lovell;Alise Lovell;Adventurer;4;Physical Attack;Fire;Possible;Regular
+738;Dual Resonance Bell Cranel;Bell Cranel;Assist;4;;;;Regular
+739;Luvia Ryu Lion;Ryu Lion;Adventurer;4;Magical Attack;Wind;Possible;Regular
+740;Sword of Hesitation Ais Wallenstein;Ais Wallenstein;Adventurer;4;Magical Attack;Dark;Possible;Regular
+741;Spear of Reflection Finn Deimne;Finn Deimne;Adventurer;4;Physical Attack;Thunder;Possible;Regular
+742;Fairy Force Alicia Forestlight;Alicia Forestlight;Adventurer;4;Magical Attack;Light;Possible;Regular
+743;Fairy Commander Riveria Ljos Alf;Riveria Ljos Alf;Assist;4;;;;Regular
+744;Shining Werewolf Bete Loga;Bete Loga;Assist;4;;;;Regular
+745;Pinnacle Ottarl;Ottarl;Adventurer;4;Physical Attack;Earth;Possible;Hero Festa Ltd.
+746;Wheel Song Allen Fromel;Allen Fromel;Adventurer;4;Physical Attack;Thunder;Possible;Hero Festa Ltd.
+747;Thousand Song Lefiya Viridis;Lefiya Viridis;Adventurer;4;Magical Attack;Fire;Possible;Regular
+748;Sacred Song Filvis Challia;Filvis Challia;Adventurer;4;Magical Attack;Thunder;Possible;Regular
+749;Silver Saint Amid Teasanare;Amid Teasanare;Adventurer;4;Balanced;Water;Possible;Regular
+750;Songbird of Salvation Ray;Ray;Assist;4;;;;Regular

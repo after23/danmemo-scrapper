@@ -1,5 +1,4 @@
 import * as puppeteer from "puppeteer";
-import fs from "fs";
 import { characterFileName, skillFileName, assistSkillFileName } from "./const";
 import {
   writeToFile,
