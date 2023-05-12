@@ -48,7 +48,6 @@ const dataParser = (
     if (typeof name?.textContent?.trim() === "undefined") return;
     rowData[name.innerText.trim()] = value?.nextSibling?.textContent?.trim();
   });
-  console.log("here");
   return rowData;
 };
 

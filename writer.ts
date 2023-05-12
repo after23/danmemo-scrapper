@@ -51,6 +51,10 @@ const characterDataParser = (data: any): string => {
   for (const key in data) {
     let val = data[key];
     if (key === "Name" || key === "Rarity") val = stringFilter(val);
+    if (data.Category === "Assist" && key === "Method Obtained") {
+      res += `;;;${val};`;
+      break;
+    }
     res += `${val};`;
   }
   res = res.substring(0, res.length - 1);
