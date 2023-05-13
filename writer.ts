@@ -25,7 +25,7 @@ function writeToFile(fileName: string, data: string, id: number): void {
 }
 
 const stringFilter = (text: string): string => {
-  const re = /\w+/g;
+  const re = /[\w']+/g;
   const res: string | undefined = text.match(re)?.join(" ");
   if (typeof res === "undefined") throw new Error("regex went oopsie");
   return res;
